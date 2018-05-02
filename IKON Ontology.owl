@@ -1,0 +1,1067 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#"
+     xml:base="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#BloomingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#BloomingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlockingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlockingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlyingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlyingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#OccursAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#OccursAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SightingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SightingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SignsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SignsOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasColdTemp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasColdTemp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasFat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasFat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasFlowers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasFlowers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasGrowth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasGrowth">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasHotTemp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasHotTemp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasStars -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasStars">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasState">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasStorm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasStorm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasWithered -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hasWithered">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalSighting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalSighting">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlowerBloomingConditon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FlowerBloomingConditon">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirdFlocking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirdFlocking">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirdSighting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirdSighting">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MigratoryBirds">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MoonPhase -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MoonPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NightSky -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NightSky">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WeatherTempCondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WeatherTempCondition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WeatherWindPatternCondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WeatherWindPatternCondition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Withering -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Withering">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AmphibiansBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AmphibiansBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalBehaviourEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalBehaviourEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Arthropods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Arthropods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Invertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ArthropodsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ArthropodsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InvertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Astronomical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Astronomical">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#NonLivingThings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#BirdsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#BirdsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FishBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FishBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloralPlants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloralPlants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Flowering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Flowering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Flowering">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Plants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloweringPlantsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloweringPlantsBehaviour">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantBehaviourEvent"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FrogsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FrogsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AmphibiansBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InsectBehaviourEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InsectBehaviourEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Arthropods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Invertebrates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Invertebrates">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Animals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InvertebratesBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InvertebratesBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsBehaviour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MammalsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MammalsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#NonLivingThings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MeteorologicalEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MeteorologicalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MythAndReligiousBeliefsEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MythAndReligiousBeliefsEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFlowering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFlowering">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Plants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFloweringPlantsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFloweringPlantsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingThingsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingThingsBehaviour"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingsEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonLivingsEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantBehaviourEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantBehaviourEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#LivingThingsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#TimeAndPlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#TimeAndPlace"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ToadsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ToadsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AmphibiansBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFlowering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#TreesBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#TreesBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFloweringPlantsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#VertebratesBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WormsBehaviour -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WormsBehaviour">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#InvertebratesBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#amphibians -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#amphibians">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#behaviour_earthworm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#behaviour_earthworm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#WormsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#behaviour_insects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#behaviour_insects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ArthropodsBehaviour"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#earthworm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#earthworm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#worms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#fish -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#frogs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#frogs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#amphibians"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mammals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mammals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#toads -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#toads">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#amphibians"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#vertebrates">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Animals"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Invertebrates"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#worms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#worms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Invertebrates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Animals -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Animals">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#LivingThings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#LivingThings -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#LivingThings"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#NonLivingThings -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#NonLivingThings"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Plants -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Plants">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#LivingThings"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.w3.org/2002/07/owl#Animals"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Blooming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Blooming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloweringPlantsBehaviour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantBehaviourEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ColdWinterWeather -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ColdWinterWeather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MeteorologicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FullMoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FullMoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#HalfMoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#HalfMoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#HotWeather -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#HotWeather">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MeteorologicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Humidity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Humidity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Inkonjane_bird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Inkonjane_bird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Magwababa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Magwababa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MvitiTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#MvitiTree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Nthuthwane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Nthuthwane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PeachTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PeachTree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+        <hasWithered rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PeachTree"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SightingOfMigratoryBirds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SightingOfMigratoryBirds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AnimalBehaviourEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SmallMoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#SmallMoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#StarsInTheNightSky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#StarsInTheNightSky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#AstronomicalEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Umphenjane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Umphenjane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloralPlants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Wattle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Wattle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloralPlants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Wiki-Jolo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Wiki-Jolo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloralPlants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Withering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Withering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#FloweringPlantsBehaviour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#NonFloweringPlantsBehaviour"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#PlantBehaviourEvent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#ant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#bee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#bee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#butterfly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#butterfly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#cat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#cat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mammals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#cattle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#cattle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mammals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mammals"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#firefly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#firefly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#flea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#flea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#gee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#gee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+        <FlockingOf rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#gee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hawk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hawk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hlahlamedupe_bird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#hlahlamedupe_bird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#lehota_frogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#lehota_frogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#frogs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#marakarakane_tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#marakarakane_tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#moon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#moon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#morukwe_bird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#morukwe_bird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#motakahoma_tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#motakahoma_tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mothokolo_tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mothokolo_tree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#motoma_tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#motoma_tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mutiga_tree -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#mutiga_tree">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#peulwane_bird -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#peulwane_bird">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#quail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#quail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#rain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#rain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#raven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#raven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#sharks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#sharks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#fish"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#sifenenefene_worm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#sifenenefene_worm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#earthworm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#swallows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#swallows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#birds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#temperature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#temperature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Meteorological"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#termite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#termite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Insects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#wild_figs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#wild_figs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#Trees"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#wild_fruits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aakanbi/ontologies/2016/0/IKON#wild_fruits"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
